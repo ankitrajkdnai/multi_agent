@@ -1,24 +1,5 @@
-# Copyright (c) Microsoft. All rights reserved.
 
-####################################################################
-# Sample Quart webapp with that connects to Azure OpenAI           #
-# Make sure to install `uv`, see:                                  #
-# https://docs.astral.sh/uv/getting-started/installation/          #
-# and rename .env.example to .env and fill in the values.          #
-# Follow the guidance in README.md for more info.                  #
-# To run the app, use:                                             #
-# `uv run --env-file .env call_automation.py`                     #
-####################################################################
-#
-# /// script
-# requires-python = ">=3.10"
-# dependencies = [
-#     "Quart",
-#     "azure-eventgrid",
-#     "azure-communication-callautomation==1.4.0b1",
-#     "semantic-kernel[realtime]",
-# ]
-# ///
+
 
 import asyncio
 import base64
